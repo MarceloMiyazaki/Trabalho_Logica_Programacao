@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//FUN«√O PARA CALCULAR A M…DIA
+//FUN√á√ÉO PARA CALCULAR A M√âDIA
 double media(double *vet, int len){
     int i;
     double total = 0;
@@ -13,7 +13,7 @@ double media(double *vet, int len){
 
 }
 
-//FUN«√O PRINCIPAL
+//FUN√á√ÉO PRINCIPAL
 int main()
 {
     int length, i;
@@ -28,7 +28,9 @@ int main()
         scanf("%lf", &vetor[i]);
     }
 
-    //PRINT PARA CHAMAR A FUN«√O MEDIA
-    printf("Media: %.2lf", media(vetor, length));
+    //PRINT PARA CHAMAR A FUN√á√ÉO MEDIA
+    if(length!=0)
+        printf("Media: %.2lf", media(vetor, length));
+
     return 0;
 }
